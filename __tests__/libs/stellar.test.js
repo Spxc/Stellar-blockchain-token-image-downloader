@@ -1,6 +1,6 @@
 /**
- * File: app.js
- * Description: Application entry point
+ * File: stellar.test.js
+ * Description: Library unit test for lib/stellar.js
  * Author: Spxc
  * Github: https://github.com/Spxc/Stellar-blockchain-token-image-downloader
  * Date: September 02, 2023
