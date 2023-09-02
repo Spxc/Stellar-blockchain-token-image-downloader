@@ -14,8 +14,13 @@ const { tvlTokens } = require("./libs/stellar")
 /**
  * Set the compressions resize size
  */
-const resizeSize = 20
+const resizeSize = 30
 
+/**
+ * Initialize our app and run some standard 
+ * FileSystem checks in order to not error out when
+ * downloading the token assets
+ */
 const initApp = async () => {
     let path = `${__dirname}/../downloads/${resizeSize}`
     
