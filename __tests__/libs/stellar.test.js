@@ -8,7 +8,7 @@
 
 const { tvlTokens } = require("../../src/libs/stellar")
 
-test('Fetching token images', () => {
+test('Fetching token image data (URL)', () => {
     return tvlTokens(false).then(data => {
         expect(Array.isArray(data)).toBe(true)
     })
