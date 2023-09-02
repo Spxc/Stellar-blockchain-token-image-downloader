@@ -1,11 +1,19 @@
+/**
+ * File: app.js
+ * Description: Application entry point
+ * Author: Spxc
+ * Github: https://github.com/Spxc/Stellar-blockchain-token-image-downloader
+ * Date: September 02, 2023
+ */
+
 const { fetchAsset } = require("./libs/download")
 const optimize = require("./libs/optimize")
-const { fetchTokens, fetchPoolProvidersB, tvlTokens } = require("./libs/stellar")
+const { tvlTokens } = require("./libs/stellar")
 
 /**
  * Set the compressions resize size
  */
-const resizeSize = 30
+const resizeSize = 40
 
 /**
  * Start the download function which will do

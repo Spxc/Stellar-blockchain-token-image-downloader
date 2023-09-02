@@ -1,10 +1,12 @@
+/**
+ * File: optimize.js
+ * Description: Image optimization library
+ * Author: Spxc
+ * Github: https://github.com/Spxc/Stellar-blockchain-token-image-downloader
+ * Date: September 02, 2023
+ */
+
 const sharp = require("sharp")
-
-const resize = () => {
-    return new Promise(async resolve => {
-
-    })
-}
 
 /**
  * 

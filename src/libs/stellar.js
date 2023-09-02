@@ -1,6 +1,11 @@
 /**
- * Import Axios 
+ * File: stellar.js
+ * Description: Token data fetch library
+ * Author: Spxc
+ * Github: https://github.com/Spxc/Stellar-blockchain-token-image-downloader
+ * Date: September 02, 2023
  */
+
 const axios = require("axios")
 
 /**
